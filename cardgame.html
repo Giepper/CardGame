@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cardGame.css">
+    <script src="chance.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    
+</style>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="cardGameImg/war-logo.png">
+        </div>
+        <div class="mainContent">
+            <div class="cardCorner" id="left">
+                <img class="card" src="cardGameImg/black-back.png">
+                <div class="cardNumber">
+                    <p class="numer">
+                        <img class="karta" id="karta1">
+                    </p>
+                </div>
+            </div>
+            <div class="mainGame">
+                <button class="start" id="start">Start game</button>
+                <button class="rand" id="rand">Draw a card</button>
+                <button class="next" id="next">Sum the cards</button>
+            </div>
+            <div class="cardCorner2" id="right">
+                <img class="card" src="cardGameImg/blue-back.png">
+                <div class="cardNumber">
+                    <p class="numer2" id="numer1">
+                        <img class="karta" id="karta2">
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="points" id="left_points"></p>
+            <p class="points" id="label">cards left</p>
+            <p class="points" id="right_points"></p>
+        </div>
+    </div>
+    <script src="cardGame.js">
+
+    </script>
+</body>
+</html>
